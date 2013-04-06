@@ -1,0 +1,46 @@
+{
+  "name": "Like Person",
+  "version": "1.0.0",
+  "manifest_version": 2,
+
+  "description": "Extension that lets you like or hate anyone on Facebook",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "default_locale": "en",
+
+  "browser_action": {
+    "default_icon": {
+      "19": "images/popup19x19.png",
+      "38": "images/popup38x38.png"
+    },
+    "default_title": "Like Person",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "chrome_url_overrides": {...},
+  "content_scripts": [...],
+  "content_security_policy": "policyString",
+  "file_browser_handlers": [...],
+  "homepage_url": "http://path/to/homepage",
+  "incognito": "spanning" or "split",
+  "key": "publicKey",
+  "minimum_chrome_version": "versionString",
+
+  "nacl_modules": [...],
+  "offline_enabled": true,
+  "omnibox": { "keyword": "aString" },
+  "options_page": "aFile.html",
+  "permissions": [...],
+  "plugins": [...],
+  "requirements": {...},
+  "update_url": "http://path/to/updateInfo.xml",
+  "web_accessible_resources": [...],
+  "sandbox": [...]
+}
