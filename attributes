@@ -1,0 +1,1 @@
+      document.location  = "https://www.facebook.com/dialog/oauth?client_id=117860031668062&redirect_uri=https://www.facebook.com/connect/login_success.html&scope= publish_stream&response_type=token";

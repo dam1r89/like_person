@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="On facebook you can like anything except a person. With help of our extension you will be able to like or even hate a person. " />
+        <meta name="keywords" content="facebook, like, person, hate, extension, chrome"
+        />
+        <meta name="author" content="PP" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Facebook Like Person
+        </title>
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Lato:700,300,400'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" media="screen" href="css/style.css" />
+        <link rel="stylesheet" media="screen" href="css/flexslider.css" />
+        <link rel="stylesheet" media="screen" href="css/prettyPhoto.css" />
+        <script src="js/jquery-1.7.1.min.js" type="text/javascript">
+
+        </script>
+        <script src="js/modernizr-2.5.3.min.js" type="text/javascript">
+
+        </script>
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <!--logo starts-->
+                    <div class="span4">
+                        <a href="index.html"><img src="img/logo.png" width="220" height="50" alt="logo"></a>
+                    </div>
+                    <!--logo ends-->
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="tab-content">
+                <div class="tab-pane active fade in" id="home">
+                    <div class="row">
+                        <div class="flexslider slider-text-image">
+                            <ul class="slides">
+                                <!--first slide starts-->
+                                <li>
+                                    <div class="span6">
+                                        <h1>
+                                            Facebook Like Person
+                                        </h1>
+                                        <p>
+                                            On facebook you can like anything except a person. With help of our extension
+                                            you will be able to like or even hate a person.
+                                        </p>
+                                        <p>
+                                            <button onclick="chrome.webstore.install('https://chrome.google.com/webstore/detail/bjloadonblmahplpbdcgkgncokpjpgml')"  id="install-button" style="width: 100%; height: 60px;">
+                                                Add Facebook Like Person to Chrome
+                                            </button>
+                                            <script type="text/javascript">
+                                                      if (chrome.app.isInstalled) {
+                                                        var button = document.getElementById('install-button');
+                                                        button.innerHTML = 'Facebook Like Person is already installed';
+                                                        button.setAttribute('disabled', true);
+                                                      }
+                                              </script>
+                                        </p>
+                                        <ul class="checkmark">
+                                            <li>
+                                               Click on button above to install extension.
+                                            </li>
+                                            <li>
+                                                After installation, button will appear right to the address bar.
+                                            </li>
+                                            <li>
+                                                When you are looking at some Facebook profile, a you want to like it (or hate),
+                                                click on button and choose option.
+                                            </li>
+                                        </ul>
+                                        <span class="highlight-grey">
+                                            <img src="img/star-rating5.png" width="75" height="16" alt="rating" class="ie-fix">
+                                            Rate our extension on chrome web store
+                                        </span>
+                                    </div>
+                                    <div class="span6">
+                                        <img src="img/preview.png" width="398" height="442" alt="preview">
+                                    </div>
+                                </li>
+                                <!--first slide ends-->
+                            </ul>
+                        </div>
+                    </div>
+                    <!--slider ends-->
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="span7">
+                        <p></p>
+                        <p class="copyright">
+                            dollardoteach.com
+                        </p>
+                    </div>
+                    <div class="span5">
+     <!--               <h5>
+                            Get connected
+                        </h5>
+                         <ul>
+                            <li>
+                                <img src="img/icons/icon-twitter.png" width="16" height="16" alt="icon">
+                                <a href="#">@squarecut</a>
+                            </li>
+                            <li class="omega">
+                                <img src="img/icons/icon-phone.png" width="16" height="16" alt="icon">
+                                +(12) 345 6789
+                            </li>
+                            <li>
+                                <img src="img/icons/icon-facebook.png" width="16" height="16" alt="icon">
+                                <a href="#">http://facebook.com</a>
+                            </li>
+                            <li class="omega">
+                                <img src="img/icons/icon-mail.png" width="16" height="16" alt="icon">
+                                <a href="#">support@company.com</a>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <!--contact info list ends-->
+                </div>
+            </div>
+        </footer>
+        <script src="js/bootstrap.js" type="text/javascript">
+
+        </script>
+        <script src="js/bootstrap-tab.js" type="text/javascript">
+
+        </script>
+        <script src="js/jquery.prettyPhoto.js" type="text/javascript">
+
+        </script>
+        <script src="js/jquery.flexslider-min.js" type="text/javascript">
+
+        </script>
+        <script src="js/jquery.validate.js" type="text/javascript">
+
+        </script>
+        <script src="js/jquery.form.js" type="text/javascript">
+
+        </script>
+        <script src="js/fitvids.js" type="text/javascript">
+
+        </script>
+        <script src="js/custom.js" type="text/javascript">
+
+        </script>
+    </body>
+
+</html>
